@@ -21,6 +21,7 @@
 		9E75D75918EAA39300862FAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E75D73B18EAA39300862FAE /* UIKit.framework */; };
 		9E75D76118EAA39300862FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E75D75F18EAA39300862FAE /* InfoPlist.strings */; };
 		9E75D76318EAA39300862FAE /* Test_GItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75D76218EAA39300862FAE /* Test_GItTests.m */; };
+		9E75D76E18EAA62A00862FAE /* MRTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75D76D18EAA62A00862FAE /* MRTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9E75D75E18EAA39300862FAE /* Test GItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test GItTests-Info.plist"; sourceTree = "<group>"; };
 		9E75D76018EAA39300862FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E75D76218EAA39300862FAE /* Test_GItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_GItTests.m; sourceTree = "<group>"; };
+		9E75D76C18EAA62A00862FAE /* MRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTest.h; sourceTree = "<group>"; };
+		9E75D76D18EAA62A00862FAE /* MRTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		9E75D72B18EAA39300862FAE = {
 			isa = PBXGroup;
 			children = (
+				9E75D76C18EAA62A00862FAE /* MRTest.h */,
+				9E75D76D18EAA62A00862FAE /* MRTest.m */,
 				9E75D73D18EAA39300862FAE /* Test GIt */,
 				9E75D75C18EAA39300862FAE /* Test GItTests */,
 				9E75D73618EAA39300862FAE /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				9E75D74418EAA39300862FAE /* main.m in Sources */,
 				9E75D74E18EAA39300862FAE /* MRViewController.m in Sources */,
+				9E75D76E18EAA62A00862FAE /* MRTest.m in Sources */,
 				9E75D74818EAA39300862FAE /* MRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
